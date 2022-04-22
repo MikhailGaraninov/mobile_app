@@ -12,19 +12,19 @@ class Second extends StatelessWidget {
 Widget build(BuildContext context) {
   return MaterialApp(
     debugShowCheckedModeBanner: false,
-    title: 'Flutter Demo',
+    title: 'Mobile App',
     theme: ThemeData(
       primarySwatch: Colors.green,
     ),
-    home: SecondPage(title: 'Flutter Demo Second Page'),
+   /*  home: SecondPage(title: 'Mobile App'), */
   );
 }
 
-class SecondPage extends StatefulWidget {
+/* class SecondPage extends StatefulWidget {
   const SecondPage({Key? key, required this.title}) : super(key: key);
   final String title;
-
-  @override
+ */
+ /*  @override
   State<MyHomePage> createState() => HomePageSecond();
 }
 
@@ -37,5 +37,5 @@ class HomePageSecond extends State<MyHomePage> {
       ),
       body: Center(child: Text('Second')),
     );
-  }
-}
+  } */
+/* } */
